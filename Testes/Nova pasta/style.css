@@ -1,0 +1,14 @@
+button {
+    background-color: green; /* Cor de fundo VERDE */
+    color: white; /* Texto BRANCO pra dar contraste */
+    padding: 10px 20px; /* Espaço dentro do botão */
+    border: none; /* Tira a borda feia padrão */
+    border-radius: 5px; /* Cantinhos arredondados */
+    cursor: grab; /* Faz o cursor virar uma mãozinha */
+    font-size: 16px; /* Deixa o texto maior */
+}
+
+button:active {
+    transform: scale(0.95); /* Dá uma encolhidinha quando clicar */
+    cursor: grabbing;
+}
